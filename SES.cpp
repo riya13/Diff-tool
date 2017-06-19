@@ -7,15 +7,14 @@ int main() {
 
     string A, B;
 
-    cin>>A>>B;
+    cin>>A>>B; //Input sequences
 
     int N = A.length();
     int M = B.length();
 
     int V[2*(N+M)];
 
-
-	  V[ 1 ] = 0;
+    V[ 1 ] = 0;
 
     int *p = & V[0];
 
