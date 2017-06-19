@@ -15,9 +15,9 @@ int main() {
 
     int V[max+1];
 
-    V[ 1 ] = 0;
-
     int *p = & V[(max+1)/2];
+    
+    p[1] = 0;
 
     for ( int d = 0 ; d <= N + M ; d++ )
     {
