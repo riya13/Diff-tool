@@ -4,7 +4,8 @@ This is an implementation of the basic greedy diff algorithm, as described by Eu
 
 In his paper, Myers also extends his basic algorithm with the "Linear Space Refinement".
 
-<h6> DEFINITIONS </h6>
+
+<h2> DEFINITIONS </h2>
 
 
 
@@ -37,3 +38,5 @@ In fact, they are the lines represented by the equation: y = x - k. This is also
 <b> d contours </b>
 
 A difference is shown by a horizontal or vertical move in the edit graph. A contiguous series of snakes has a d value which is the number of differences in that trace, irrespective of the number of diagonals in it. A d contour can be created that joins the end points of all traces with a given d value.
+
+
