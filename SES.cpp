@@ -12,11 +12,12 @@ int main() {
     int N = A.length();
     int M = B.length();
     int max = N+M;
+    bool flag = false;
 
     int V[max+1];
 
     int *p = & V[(max+1)/2];
-    
+
     p[1] = 0;
 
     for ( int d = 0 ; d <= N + M ; d++ )
@@ -42,18 +43,27 @@ int main() {
 
        // follow diagonal
        int snake = 0;
-       while ( xEnd < N && yEnd < M && A[ xEnd ] == B[ yEnd ] ) { xEnd++; yEnd++; snake++; }
+       while ( (xEnd < N) && (yEnd < M) && (A[ xEnd ] == B[ yEnd ]) ) { xEnd++; yEnd++; snake++; }
 
        // save end point
        p[ k ] = xEnd;
 
        // check for solution
        if ( xEnd >= N && yEnd >= M ) // Solution has been found!
-        
+       {
+           cout<<d<<endl;
+           flag = true;
+           break;
+       }
+
+
       }
+
+      if(flag)
+        break;
 
    }
 
 return 0;
-  
+
 }
