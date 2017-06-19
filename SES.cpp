@@ -51,7 +51,7 @@ int main() {
        // check for solution
        if ( xEnd >= N && yEnd >= M ) // Solution has been found!
        {
-           cout<<"Minimum number of moves required to convert string A into B is: "<< d << endl;
+           cout<<"Minimum edits required to convert string A into B is: "<< d << endl;
            flag = true;
            break;
        }
