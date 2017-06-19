@@ -11,12 +11,13 @@ int main() {
 
     int N = A.length();
     int M = B.length();
+    int max = N+M;
 
-    int V[2*(N+M)];
+    int V[max+1];
 
     V[ 1 ] = 0;
 
-    int *p = & V[0];
+    int *p = & V[(max+1)/2];
 
     for ( int d = 0 ; d <= N + M ; d++ )
     {
