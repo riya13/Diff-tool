@@ -5,7 +5,7 @@ using namesapce std;
 
 int main() {
   
-  // number of colsof file A and file B
+  // number of cols of file A and file B
   
   int a , b;
   
