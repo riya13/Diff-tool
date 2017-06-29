@@ -14,14 +14,21 @@ int main() {
   
   string A[a] , B[b];
   
+  for(int i=0; i<a; i++){
+    cin>>A[i];
+  }
   
-  
+  for(int i=0; i<b; i++){
+    cin>>B[b];
+  }
   
   int t = 2;
   
   // for 2 dimensional difference
   
   while(t--) {
+    
+    
     
     
   
