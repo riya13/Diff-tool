@@ -6,8 +6,9 @@ using namespace std;
 int main() {
 
     string A, B;
-
-    cin>>A>>B; //Input sequences
+    
+    // Input sequences
+    cin>>A>>B; 
 
     int N = A.length();
     int M = B.length();
