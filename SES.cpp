@@ -6,6 +6,7 @@ using namespace std;
 int main() {
 
     string A, B;
+    string C, D;
     
     // Input sequences
     cin>>A>>B; 
